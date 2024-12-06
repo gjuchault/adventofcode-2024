@@ -4,6 +4,7 @@ from days.day2 import main as day2
 from days.day3 import main as day3
 from days.day4 import main as day4
 from days.day5 import main as day5
+from days.day6 import main as day6
 
 def main():
     if len(argv) < 2:
@@ -29,6 +30,9 @@ def main():
         case "5":
             print("⭐️ Part 1", day5.part1()) if part == "both" or part == "1" else None
             print("⭐️ Part 2", day5.part2()) if part == "both" or part == "2" else None
+        case "6":
+            print("⭐️ Part 1", day6.part1()) if part == "both" or part == "1" else None
+            print("⭐️ Part 2", day6.part2()) if part == "both" or part == "2" else None
 
 if __name__ == "__main__":
     main()
